@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+}
+
+.login {
+    padding: 40px;
+    background-color: hsl(139, 54%, 83%);
+    color: hsl(135, 10%, 23%);
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+
+input {
+    width: 100%;
+}
+
+.form-warning {
+    color: red;
+    font-size: 12px;
+    min-height: 15px;
+}
